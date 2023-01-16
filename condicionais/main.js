@@ -1,13 +1,13 @@
-var n1 = prompt("digite um valor")
-n1 = parseFloat(n1)
+let nota1 = prompt('digite a nota')
+let notaA = parseFloat(nota1)
 
-var n2 = prompt("digite um numero")
-n2 = parseFloat(n2)
+let nota2 = prompt('digite a segunda nota')
+let notaB = parseFloat(nota2)
 
-var media = ( n1 + n2  ) / 2; 
+let media = (notaA + notaB) / 2;
 
 if(media >= 5){
-  alert(media + " Você foi aprovado")
+  alert('Nota: ' + media + ' APROVADO')
 }else{
-  alert(media +" Você foi reprovado")
+  alert('Nota: ' + media + ' REPROVADO')
 }
